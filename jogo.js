@@ -46,7 +46,6 @@ for (var i = 0; i < 25; i++) {
     });
 }
 
-
 // Função principal da animação
 function animate(){
 
@@ -70,7 +69,7 @@ function animate(){
     
     // Desenha um círculo branco que vai simular estar tremendo na tela
     c.beginPath();
-    c.arc(xc, 322, 25, 0, Math.PI * 2, false);
+    c.arc(xc, 322, 35, 0, Math.PI * 2, false);
     c.fillStyle = "#ffffff";
     c.fill();
 
@@ -90,7 +89,7 @@ function animate(){
     c.clearRect(x, y, 35, 35);
 
     // Define a cor do jogador
-    c.fillStyle = "#fc0af0";
+    c.fillStyle = "#d805fe";
 
     // Movimentação usando as setas do teclado
     if (teclas["ArrowUp"])
@@ -104,6 +103,21 @@ function animate(){
 
     if (teclas["ArrowRight"])
         x += velocidade;
+
+    // Verifica colisão entre jogador e círculo central
+    if (x + 35 > xc - 35 && x < xc + 35 && y + 35 > 322 - 35 && y < 322 + 35  ){
+        // Redesenha os pontinhos e redefine as variaáveis com seus valores iniciais 
+        x = 60;
+        y = 80;
+        coletados = 0;
+        pontos = [];
+        for (var i = 0; i < 25; i++) {
+            pontos.push({
+                w: random(0, canvas.width - 16),
+                z: random(0, canvas.height - 16)
+            });
+        }
+    }
 
     // Desenha o jogador (quadrado rosa)
     c.fillRect(x, y, 35, 35);
@@ -161,12 +175,7 @@ function animate(){
         c.fill();
 
         // Verifica colisão entre o jogador e o ponto
-        if (
-            pontos[i].w + 8 > x &&
-            pontos[i].w - 8 < x + 35 &&
-            pontos[i].z + 8 > y &&
-            pontos[i].z - 8 < y + 35
-        ) {
+        if (pontos[i].w + 8 > x && pontos[i].w - 8 < x + 35 && pontos[i].z + 8 > y && pontos[i].z - 8 < y + 35){
             // Remove o ponto coletado
             pontos.splice(i, 1);
             coletados++;
