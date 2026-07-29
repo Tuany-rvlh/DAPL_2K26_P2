@@ -1,16 +1,14 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:002B36,25:005F73,50:0A9396,75:94D2BD,100:E9D8A6&height=220&section=header&text=DAPL%202K26&fontSize=65&fontColor=ffffff&animation=fadeIn&fontAlignY=35"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:002B36,25:005F73,50:0A9396,75:94D2BD,100:E9D8A6&height=220&section=header&text=DAPL%202K26%20P2&fontSize=65&fontColor=ffffff&animation=fadeIn&fontAlignY=35"/>
 
 <br>
 
-<br>
-
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=24&duration=3000&pause=900&color=94D2BD&center=true&vCenter=true&width=750&lines=Initializing+DAPL+2K26...;Loading+Frontend+Environment...;Rendering+Canvas...;Creating+Web+Interfaces...;Developing+Interactive+Applications...;System+Online+✓"/>
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=24&duration=3000&pause=900&color=94D2BD&center=true&vCenter=true&width=850&lines=Initializing+DAPL+2K26+P2...;Loading+Backend+Services...;Rendering+Canvas+Projects...;Building+Web+Applications...;System+Online+✓"/>
 
 <br>
 
-### 🌐 Desenvolvimento Frontend 🌐
+### 🌐 Desenvolvimento Web
 
 ### Curso Técnico em Desenvolvimento de Sistemas
 
@@ -18,214 +16,342 @@
 
 ### Orientador: **Prof. Daniel Mosca**
 
+<br>
+
+![HTML5](https://img.shields.io/badge/HTML5-Web-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-Style-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+![Node.js](https://img.shields.io/badge/Node.js-Backend-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express-API-000000?style=for-the-badge&logo=express&logoColor=white)
+
+![Git](https://img.shields.io/badge/Git-Versionamento-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-Repositório-181717?style=for-the-badge&logo=github&logoColor=white)
 
 <br>
 
-![HTML5](https://img.shields.io/badge/HTML5-Web%20Structure-E34F26?style=for-the-badge\&logo=html5\&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-Styling-1572B6?style=for-the-badge\&logo=css3\&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black)
-
-![Canvas](https://img.shields.io/badge/HTML5%20Canvas-Graphics-0A9396?style=for-the-badge)
-![Frontend](https://img.shields.io/badge/Frontend-Web%20Development-005F73?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Em%20desenvolvimento-94D2BD?style=for-the-badge)
-
-<br>
-
-![Git](https://img.shields.io/badge/Git-Versionamento-F05032?style=for-the-badge\&logo=git\&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-Repositório-181717?style=for-the-badge\&logo=github\&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-Editor-007ACC?style=for-the-badge\&logo=visualstudiocode\&logoColor=white)
-
-<br><br>
 ---
 
 </div>
 
+
 # 👨‍💻 Sobre o repositório
 
-A pasta **Frontend** contém atividades envolvendo desenvolvimento web utilizando:
+O **DAPL_2K26_P2** reúne projetos desenvolvidos durante o curso técnico de **Desenvolvimento de Sistemas**, envolvendo conceitos de **Frontend, Backend e Desenvolvimento Web**.
 
-* HTML5;
-* CSS3;
-* JavaScript;
-* API Canvas.
+O repositório apresenta a evolução prática no desenvolvimento de aplicações, desde a criação de interfaces interativas e animações utilizando **HTML, CSS e JavaScript**, até a construção de servidores e APIs utilizando **Node.js e Express**.
 
-Durante o desenvolvimento foram explorados conceitos como criação de interfaces, desenhos digitais, animações, manipulação de eventos, interação com mouse e teclado e construção de pequenos projetos interativos.
+Durante o desenvolvimento foram explorados:
+
+- Desenvolvimento Web;
+- Comunicação cliente-servidor;
+- Criação de APIs REST;
+- Manipulação de dados em JSON;
+- Animações utilizando Canvas;
+- Desenvolvimento de jogos 2D;
+- Organização de projetos utilizando Git e GitHub.
+
 
 ---
 
 # 🗂️ Sumário
 
-* [👨‍💻 Sobre o repositório](#-sobre-o-repositório)
-* [📁 Estrutura do projeto](#-estrutura-do-projeto)
-* [📚 Conteúdos desenvolvidos](#-conteúdos-desenvolvidos)
-* [🎮 Projetos e desafios](#-projetos-e-desafios)
-* [▶️ Como executar](#️-como-executar)
-* [🎯 Objetivos do projeto](#-objetivos-do-projeto)
-* [📈 Status do projeto](#-status-do-projeto)
+- [👨‍💻 Sobre o repositório](#-sobre-o-repositório)
+- [📁 Estrutura do projeto](#-estrutura-do-projeto)
+
+- [⚙️ Backend](#️-backend)
+  - [💄 Glow Beauty API](#-glow-beauty-api)
+
+- [🌐 Frontend](#-frontend)
+  - [🎮 Projetos em destaque](#-projetos-em-destaque)
+    - [🐍 Jogo Snake](#-jogo-snake)
+    - [🌧️ Chuva de Partículas](#️-chuva-de-partículas)
+    - [⚡ Caçadores de Elétrons](#-caçadores-de-elétrons)
+    - [🌌 Canvas Game](#-canvas-game)
+
+- [▶️ Como executar](#️-como-executar)
+- [🎯 Objetivos](#-objetivos)
+- [📈 Status do projeto](#-status-do-projeto)
+
 
 ---
 
 # 📁 Estrutura do projeto
 
 ```text
-DAPL_2K26_P1/
+DAPL_2K26_P2/
+
 │
-└───Frontend/
-    │
-    ├───Desafios/
-    │   ├───Chuva_Particulas/
-    │   └───Jogo_Snake/
-    │
-    ├───Exemplos_Canvas/
-    │   ├───Gravitacional/
-    │   └───Particulas_Mouse/
-    │
-    ├───Exercicios_Canvas_P1/
-    │   ├───Ex01_Formas/
-    │   ├───Ex02_FormasAle/
-    │   ├───Ex03_CorAle/
-    │   ├───Ex04_TamAle/
-    │   └───...
-    │
-    ├───Exercicios_Canvas_P2/
-    │   ├───Ex01_Limites/
-    │   ├───Ex02_LimQuad/
-    │   ├───Ex03_BotaoPause/
-    │   ├───Ex04_Slider/
-    │   └───...
-    │
-    ├───Projeto_Canvas_V1/
-    │   ├───jogo.js
-    │   └───joguinho.html
-    │
-    └───Teste_HTML/
-        └───IM/
-            └───circuito.png
+├── Backend/
+│   ├── Framework_Express/
+│   ├── nodeJS/
+│   └── Projeto_MakeServer/
+│
+├── Frontend/
+│   ├── Desafios/
+│   ├── Exemplos_Canvas/
+│   ├── Exercicios_Canvas_P1/
+│   ├── Exercicios_Canvas_P2/
+│   ├── Projeto_Canvas_V1/
+│   └── Projeto_Canvas_V2/
+│
+├── package.json
+├── package-lock.json
+├── README.md
+└── .gitignore
 ```
 
 ---
 
-# 📚 Conteúdos desenvolvidos
+# ⚙️ Backend
 
-|      Área     | Conteúdo                                                   |
-| :-----------: | ---------------------------------------------------------- |
-|    🧱 HTML    | Estruturação de páginas e organização de elementos         |
-|     🎨 CSS    | Estilização, cores, layouts e apresentação visual          |
-| ⚙️ JavaScript | Variáveis, funções, eventos e lógica aplicada ao navegador |
-|   🖌️ Canvas  | Desenho de formas, animações e manipulação gráfica         |
-|  🖱️ Eventos  | Controle por mouse, teclado e interação do usuário         |
-|  🎮 Projetos  | Aplicações interativas utilizando conceitos Frontend       |
+A área de **Backend** reúne projetos desenvolvidos utilizando **Node.js** e **Express**, com foco na criação de servidores, APIs e comunicação entre aplicações.
 
----
+Durante o desenvolvimento foram trabalhados conceitos fundamentais de aplicações no lado do servidor:
 
-# 🖌️ Exercícios Canvas
+- Criação de servidores HTTP;
+- Organização de rotas e endpoints;
+- Requisições e respostas HTTP;
+- Métodos GET e POST;
+- Manipulação de arquivos JSON;
+- Sistemas de autenticação;
+- Desenvolvimento de APIs REST;
+- Comunicação entre cliente e servidor.
 
-## 📘 Parte 1 — Fundamentos
+Os projetos exploram desde servidores simples utilizando o módulo nativo do Node.js até aplicações completas utilizando Express.
 
-Primeiros estudos utilizando Canvas:
-
-* Criação de formas geométricas;
-* Desenhos utilizando JavaScript;
-* Geração aleatória de posições;
-* Alteração de cores;
-* Manipulação de tamanhos.
-
-## 📗 Parte 2 — Interação
-
-Evolução dos conceitos:
-
-* Movimento de objetos;
-* Limites do Canvas;
-* Eventos de teclado;
-* Eventos de mouse;
-* Controles de interação;
-* Animações utilizando `requestAnimationFrame()`.
 
 ---
 
-# 🎮 Projetos e desafios
+# 💄 Glow Beauty API
 
-## 🌧️ Chuva de Partículas
+A **Glow Beauty API** é uma aplicação backend desenvolvida utilizando **Node.js e Express**, simulando o funcionamento de uma loja virtual de maquiagens.
 
-Projeto envolvendo criação de partículas animadas:
+O sistema permite o gerenciamento de usuários, produtos e compras através de uma API com comunicação baseada em JSON.
 
-* Geração de diversos elementos;
-* Movimento independente;
-* Interação com mouse;
-* Simulação de efeitos visuais.
+Principais funcionalidades:
+
+- Sistema de login;
+- Consulta de produtos;
+- Filtros por categoria;
+- Controle de estoque;
+- Gerenciamento de carrinho;
+- Respostas HTTP padronizadas;
+- Testes utilizando Postman.
+
+Conceitos aplicados:
+
+`Node.js` `Express` `REST API` `JSON` `Postman`
+
+---
+
+# 🌐 Frontend
+
+A área de **Frontend** reúne projetos desenvolvidos utilizando **HTML5, CSS3, JavaScript e API Canvas**, explorando criação de interfaces, animações e aplicações interativas.
+
+Os projetos desenvolvidos possuem foco na aplicação prática de lógica de programação, manipulação de elementos gráficos e interação com o usuário através do navegador.
+
+Principais conceitos trabalhados:
+
+- Estruturação de páginas Web;
+- Estilização de interfaces;
+- Manipulação do DOM;
+- Eventos de teclado e mouse;
+- Renderização utilizando Canvas;
+- Sistemas de partículas;
+- Movimentação de objetos;
+- Detecção de colisões;
+- Animações em tempo real;
+- Desenvolvimento de jogos 2D.
+
+
+---
+
+# 🎮 Projetos em destaque
+
 
 ## 🐍 Jogo Snake
 
-Implementação do clássico jogo da cobrinha:
+Implementação do clássico jogo da cobrinha utilizando **JavaScript e HTML Canvas**.
 
-* Movimentação utilizando teclado;
-* Controle da cobra;
-* Sistema de pontuação;
-* Crescimento ao coletar frutas;
-* Detecção de colisões;
-* Tela de Game Over.
+O jogador controla a cobra pelo teclado, coletando itens espalhados pelo cenário enquanto aumenta sua pontuação e evita colisões.
+
+Principais funcionalidades:
+
+- Controle por teclado;
+- Movimentação contínua;
+- Sistema de pontuação;
+- Crescimento da cobra;
+- Geração de itens;
+- Detecção de colisões;
+- Tela de Game Over.
+
+Conceitos aplicados:
+
+`HTML Canvas` `JavaScript` `Eventos de Teclado` `Lógica de Jogos`
+
+
+---
+
+## 🌧️ Chuva de Partículas
+
+Projeto desenvolvido utilizando **HTML Canvas e JavaScript**, explorando animações, partículas e interação com o usuário.
+
+O sistema cria uma nuvem controlada pelo movimento do mouse, permitindo movimentar a formação pela tela enquanto gotas de chuva são geradas continuamente.
+
+Principais funcionalidades:
+
+- Controle da nuvem através do mouse;
+- Sistema de partículas para criação das gotas;
+- Movimento independente da chuva;
+- Animação contínua;
+- Atualização dinâmica dos elementos;
+- Efeitos visuais utilizando Canvas.
+
+Conceitos aplicados:
+
+`HTML Canvas` `JavaScript` `Eventos de Mouse` `Sistema de Partículas` `Animações`
+
+
+---
+
+## ⚡ Caçadores de Elétrons
+
+Jogo desenvolvido utilizando conceitos de **física e programação gráfica**, baseado na **Lei de Coulomb**.
+
+O jogador controla partículas carregadas eletricamente enquanto interage com forças de atração e repulsão presentes no ambiente.
+
+O projeto utiliza conceitos físicos para simular o comportamento das cargas elétricas durante a partida.
+
+Principais funcionalidades:
+
+- Simulação de cargas elétricas;
+- Atração e repulsão entre partículas;
+- Movimento baseado em vetores;
+- Sistema de colisões;
+- Captura de elétrons;
+- Sistema de vidas;
+- Projéteis elétricos;
+- Diferentes níveis de dificuldade;
+- Modo para um ou dois jogadores.
+
+Conceitos aplicados:
+
+`HTML Canvas` `JavaScript` `Física Computacional` `Vetores` `Simulação Física`
+
+
+---
+
+## 🌌 Canvas Game
+
+Projeto desenvolvido para aprofundar conceitos de animação e interação utilizando a API Canvas.
+
+O jogador controla um objeto pelo cenário com o objetivo de coletar pontos enquanto evita elementos dinâmicos presentes no mapa.
+
+Principais funcionalidades:
+
+- Movimentação do jogador;
+- Geração aleatória de elementos;
+- Sistema de coleta;
+- Colisão 2D;
+- Atualização dinâmica da tela;
+- Controle através do teclado.
+
+Conceitos aplicados:
+
+`HTML5 Canvas` `JavaScript` `Colisão 2D` `Animação` `Eventos`
+
 
 ---
 
 # ▶️ Como executar
 
-## Requisitos
+
+## 📌 Requisitos
 
 Necessário possuir:
 
-* Navegador atualizado;
-* Visual Studio Code;
-* Extensão Live Server (recomendado).
+- Node.js instalado;
+- Visual Studio Code;
+- Navegador atualizado.
 
-## Executando um projeto
 
-Entre na pasta desejada:
+---
+
+## ⚙️ Executando projetos Backend
+
+Acesse a pasta do projeto desejado:
+
+```bash
+cd Backend/Projeto_MakeServer
+```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+Execute o servidor:
+
+```bash
+node app.js
+```
+
+O servidor será iniciado no terminal.
+
+
+---
+
+## 🌐 Executando projetos Frontend
+
+Acesse a pasta do projeto:
 
 ```bash
 cd Frontend/Desafios/Jogo_Snake
 ```
 
-Abra:
+Abra o arquivo:
 
 ```text
 index.html
 ```
 
-O projeto será executado no navegador.
-
-## Utilizando Live Server
-
-1. Abra o projeto no VS Code;
-2. Instale a extensão Live Server;
-3. Clique com botão direito no arquivo `index.html`;
-4. Selecione:
+ou utilize a extensão:
 
 ```text
-Open with Live Server
+Live Server
 ```
+
 
 ---
 
-# 🎯 Objetivos do projeto
+# 🎯 Objetivos
 
-Este repositório possui como objetivos:
+Este repositório tem como objetivo registrar a evolução prática no desenvolvimento de sistemas Web, aplicando conceitos aprendidos durante o curso técnico de **Desenvolvimento de Sistemas**.
 
-* 🌐 Desenvolver aplicações para Web;
-* 🧠 Aprimorar lógica utilizando JavaScript;
-* 🎨 Criar interfaces e experiências interativas;
-* 🖌️ Aprender utilização da API Canvas;
-* 🖱️ Trabalhar com eventos de entrada;
-* ⚙️ Desenvolver animações;
-* 📂 Organizar projetos utilizando boas práticas;
-* 🌳 Utilizar Git e GitHub para versionamento.
+Principais objetivos:
+
+- 🌐 Desenvolver aplicações Web;
+- ⚙️ Criar servidores e APIs;
+- 🔗 Compreender comunicação cliente-servidor;
+- 🎮 Desenvolver jogos utilizando Canvas;
+- 🧠 Aprimorar lógica de programação;
+- 🔬 Aplicar conceitos científicos em software;
+- 📂 Organizar projetos utilizando Git e GitHub;
+- 🚀 Desenvolver soluções interativas e funcionais.
+
 
 ---
 
 # 📈 Status do projeto
 
-🟡 **Em andamento**
+🟡 **Em desenvolvimento**
 
-O objetivo é registrar toda a evolução no desenvolvimento Frontend, desde os primeiros desenhos em Canvas até aplicações interativas mais completas.
+Este repositório continuará recebendo novos projetos, exercícios e aplicações conforme a evolução dos estudos em **Desenvolvimento de Sistemas**.
+
+A cada novo projeto, são aplicados conceitos de programação, desenvolvimento Web, organização de código e criação de soluções digitais.
+
 
 ---
 
@@ -235,7 +361,7 @@ O objetivo é registrar toda a evolução no desenvolvimento Frontend, desde os 
 
 <br>
 
-🌐 💻 🌱 🚀
+🌐 💻 ⚙️ 🚀
 
 ### Desenvolvido por
 
@@ -249,6 +375,6 @@ O objetivo é registrar toda a evolução no desenvolvimento Frontend, desde os 
 
 <br>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=18&duration=3000&pause=1000&color=94D2BD&center=true&vCenter=true&width=650&lines=DAPL+2K26;HTML+%7C+CSS+%7C+JavaScript;Canvas+%7C+Animations+%7C+Web;Building+Modern+Interfaces+🌐"/>
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=18&duration=3000&pause=1000&color=94D2BD&center=true&vCenter=true&width=650&lines=DAPL+2K26+P2;Frontend+%7C+Backend;Node.js+%7C+Canvas+%7C+Web;Building+Modern+Applications+🌐"/>
 
 </div>
