@@ -1,0 +1,210 @@
+<!-- Linha 147 - botão de login -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login - Glow Beauty</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#EFDFFF,#D8B9FF);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.container{
+    background:rgba(255,255,255,.95);
+    width:380px;
+    padding:40px;
+    border-radius:25px;
+    box-shadow:0 15px 35px rgba(93,58,142,.25);
+    backdrop-filter:blur(10px);
+}
+
+h1{
+    text-align:center;
+    color:#7A58C1;
+    font-family:'Playfair Display',serif;
+    font-size:38px;
+    margin-bottom:10px;
+}
+
+p{
+    text-align:center;
+    color:#777;
+    margin-bottom:25px;
+    font-size:15px;
+}
+
+label{
+    display:block;
+    margin-top:15px;
+    margin-bottom:6px;
+    color:#5D3A8E;
+    font-weight:600;
+}
+
+input{
+    width:100%;
+    padding:13px;
+    border:2px solid #D8B9FF;
+    border-radius:12px;
+    outline:none;
+    font-size:15px;
+    transition:.3s;
+    background:#FCF9FF;
+}
+
+input:focus{
+    border-color:#8B6CD9;
+    box-shadow:0 0 10px rgba(139,108,217,.25);
+}
+
+.senha{
+    position:relative;
+}
+
+.senha input{
+    padding-right:45px;
+}
+
+.olho{
+    position:absolute;
+    right:15px;
+    top:50%;
+    transform:translateY(-50%);
+    cursor:pointer;
+    font-size:18px;
+}
+
+button{
+    width:100%;
+    margin-top:30px;
+    padding:14px;
+    border:none;
+    border-radius:30px;
+    background:linear-gradient(135deg,#8F6DD8,#7152B8);
+    color:white;
+    font-size:17px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.3s;
+    box-shadow:0 8px 18px rgba(143,109,216,.35);
+}
+
+button:hover{
+    transform:translateY(-3px);
+    background:linear-gradient(135deg,#9B7AE3,#6042A5);
+}
+
+#msg-login{
+    margin-top:20px;
+    text-align:center;
+    font-weight:bold;
+    color:#C0392B;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Glow Beauty</h1>
+    <p>Faça login para acessar sua conta.</p>
+
+    <form onsubmit="fazerLogin(event)">
+
+        <label>Usuário</label>
+
+        <input type="text" id="usuario" placeholder="Digite seu usuário" required>
+
+        <label>Senha</label>
+
+        <div class="senha">
+
+            <input type="password" id="senha" placeholder="Digite sua senha" required>
+
+            <span class="olho" onclick="mostrarSenha()">👁️‍🗨️</span>
+
+        </div>
+
+        <button type="submit">
+            Entrar
+        </button>
+
+        <p id="msg-login"></p>
+
+    </form>
+
+</div>
+
+<script>
+
+function mostrarSenha(){
+
+    let senha = document.getElementById("senha");
+
+    if(senha.type === "password"){
+        senha.type = "text";
+    }
+    else{
+        senha.type = "password";
+    }
+
+}
+
+async function fazerLogin(event){
+
+    event.preventDefault();
+
+    const resposta = await fetch("/login",{
+
+        method:"POST",
+
+        headers:{
+            "Content-Type":"application/json"
+        },
+
+        body:JSON.stringify({
+
+            usuario:document.getElementById("usuario").value,
+            senha:document.getElementById("senha").value
+
+        })
+
+    });
+
+    if(resposta.status === 200){
+
+        window.location.href = "/maquiagem";
+
+    }
+    else{
+
+        const dados = await resposta.json();
+
+        document.getElementById("msg-login").innerHTML = dados.erro;
+
+    }
+
+}
+
+</script>
+
+</body>
+</html>

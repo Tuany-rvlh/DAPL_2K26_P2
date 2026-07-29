@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Glow Beauty - Catálogo</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#F8F4FF;
+    color:#4E3A63;
+}
+
+header{
+    background:#CDB4F5;
+    color:white;
+    padding:25px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+header h1{
+    font-family:'Playfair Display',serif;
+    font-size:42px;
+}
+
+.banner{
+    background:linear-gradient(135deg,#E8D8FF,#D4B8FF);
+    padding:70px 20px;
+    text-align:center;
+}
+
+.banner h2{
+    font-family:'Playfair Display',serif;
+    color:#5D3A8E;
+    font-size:42px;
+    margin-bottom:10px;
+}
+
+.banner p{
+    font-size:18px;
+}
+
+.filtro{
+    background:white;
+    width:90%;
+    max-width:500px;
+    margin:35px auto;
+    padding:30px;
+    border-radius:25px;
+    box-shadow:0 10px 25px rgba(0,0,0,.10);
+}
+
+.filtro h3{
+    color:#7B5BC6;
+    margin-bottom:10px;
+}
+
+.filtro select{
+    width:100%;
+    padding:12px;
+    margin-top:15px;
+    border:2px solid #D8B9FF;
+    border-radius:12px;
+    outline:none;
+    background:#FCF9FF;
+}
+
+.catalogo{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:30px;
+    padding:40px 30px;
+}
+
+.card{
+    background:white;
+    width:240px;
+    padding:25px;
+    border-radius:22px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 30px rgba(123,91,198,.20);
+}
+
+.card h3{
+    color:#7B5BC6;
+    margin-bottom:15px;
+    font-size:22px;
+}
+
+.card p{
+    color:#6B5A7B;
+    margin-bottom:8px;
+}
+
+.compra{
+    background:white;
+    width:90%;
+    max-width:500px;
+    margin:40px auto;
+    padding:30px;
+    border-radius:25px;
+    box-shadow:0 10px 25px rgba(0,0,0,.10);
+}
+
+.compra h2{
+    font-family:'Playfair Display',serif;
+    color:#7B5BC6;
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.compra input,
+.compra select{
+    width:100%;
+    padding:12px;
+    margin:8px 0;
+    border:2px solid #D8B9FF;
+    border-radius:12px;
+    outline:none;
+    background:#FCF9FF;
+}
+
+.botao{
+    width:100%;
+    padding:15px;
+    border:none;
+    border-radius:30px;
+    background:linear-gradient(135deg,#8F6DD8,#7152B8);
+    color:white;
+    cursor:pointer;
+    margin-top:15px;
+    font-size:16px;
+    font-weight:600;
+    transition:.3s;
+    box-shadow:0 8px 18px rgba(143,109,216,.30);
+}
+
+.botao:hover{
+    transform:translateY(-3px);
+    background:linear-gradient(135deg,#9B7AE3,#6042A5);
+}
+
+footer{
+    background:#CDB4F5;
+    color:white;
+    padding:25px;
+    text-align:center;
+}
+
+#mensagem{
+    margin-top:20px;
+    padding:12px;
+    color:#7B5BC6;
+    font-weight:bold;
+    text-align:center;
+    background:#F3ECFF;
+    border-radius:10px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Glow Beauty</h1>
+</header>
+
+<section class="banner">
+    <h2>Catálogo de Maquiagens</h2>
+    <p>Confira nossos produtos disponíveis.</p>
+</section>
+
+<section class="filtro">
+    <h3>Filtrar por tipo</h3>
+
+    <select id="tipo">
+        <option value="">Todos</option>
+        <option value="base">Base</option>
+        <option value="corretivo">Corretivo</option>
+        <option value="batom">Batom</option>
+        <option value="blush">Blush</option>
+        <option value="máscara">Máscara</option>
+        <option value="paleta">Paleta</option>
+        <option value="iluminador">Iluminador</option>
+    </select>
+
+    <button class="botao" onclick="listar()">
+        Filtrar
+    </button>
+</section>
+
+<section class="catalogo" id="catalogo"></section>
+
+<section class="compra">
+
+    <h2>Adicionar ao carrinho</h2>
+
+    <input id="idProduto" type="number" min="1" placeholder="ID do produto">
+
+    <input id="quantidade" type="number" min="1" placeholder="Quantidade">
+
+    <select id="recebimento">
+        <option value="retirada">Retirada na loja</option>
+        <option value="entrega">Entrega</option>
+    </select>
+
+    <button class="botao" onclick="comprar()">
+        Adicionar
+    </button>
+
+    <p id="mensagem"></p>
+
+</section>
+
+<footer>
+    Glow Beauty © 2026 - Mariana & Tuany
+</footer>
+
+<script>
+
+async function listar(){
+
+    const tipo = document.getElementById("tipo").value;
+
+    const url = tipo
+        ? "/prod/maquiagem?tipo=" + tipo
+        : "/prod/maquiagem";
+
+    window.history.pushState({}, "", url);
+
+    const resposta = await fetch(url);
+    const lista = await resposta.json();
+
+    const catalogo = document.getElementById("catalogo");
+    catalogo.innerHTML = "";
+
+    for(const m of lista){
+
+        catalogo.innerHTML += `
+        <div class="card">
+            <h3>${m.nome}</h3>
+            <p>ID: ${m.id}</p>
+            <p>Tipo: ${m.tipo}</p>
+            <p>Estoque: ${m.quantidade}</p>
+        </div>`;
+    }
+}
+
+async function comprar(){
+
+    const resposta = await fetch("/carrinho",{
+        method:"POST",
+        headers:{
+            "Content-Type":"application/json"
+        },
+        body:JSON.stringify({
+            id:Number(document.getElementById("idProduto").value),
+            quantidade:Number(document.getElementById("quantidade").value),
+            recebimento:document.getElementById("recebimento").value
+        })
+    });
+
+    const dados = await resposta.json();
+
+    document.getElementById("mensagem").innerHTML =
+        dados.mensagem || dados.erro;
+
+    if(resposta.status === 201){
+        listar();
+    }
+}
+
+listar();
+
+</script>
+
+</body>
+</html>

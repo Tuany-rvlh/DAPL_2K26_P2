@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Glow Beauty</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#F8F4FF;
+    color:#4E3A63;
+    font-family:'Poppins',sans-serif;
+}
+
+header{
+    background:#CDB4F5;
+    padding:25px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+header h1{
+    color:white;
+    font-family:'Playfair Display',serif;
+    font-size:42px;
+    letter-spacing:1px;
+}
+
+.banner{
+    text-align:center;
+    padding:90px 20px;
+    background:linear-gradient(135deg,#E8D8FF,#D4B8FF);
+}
+
+.banner h2{
+    font-family:'Playfair Display',serif;
+    font-size:52px;
+    color:#5D3A8E;
+    margin-bottom:20px;
+}
+
+.banner p{
+    font-size:20px;
+    max-width:650px;
+    margin:0 auto 35px;
+}
+
+.botao{
+    display:inline-block;
+    background:#8F6DD8;
+    color:white;
+    padding:16px 45px;
+    border-radius:40px;
+    text-decoration:none;
+    font-size:18px;
+    font-weight:600;
+    box-shadow:0 10px 20px rgba(143,109,216,.3);
+    transition:.3s;
+}
+
+.botao:hover{
+    background:#7253B8;
+    transform:translateY(-5px);
+}
+
+.categorias{
+    display:flex;
+    justify-content:center;
+    gap:35px;
+    flex-wrap:wrap;
+    padding:70px 30px;
+}
+
+.card{
+    background:white;
+    width:250px;
+    padding:35px 25px;
+    border-radius:22px;
+    text-align:center;
+    box-shadow:0 8px 20px rgba(0,0,0,.10);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 30px rgba(123,91,198,.2);
+}
+
+.card h3{
+    font-size:24px;
+    color:#7B5BC6;
+    margin-bottom:15px;
+}
+
+.card p{
+    color:#6B5A7B;
+    line-height:1.6;
+}
+
+footer{
+    background:#CDB4F5;
+    color:white;
+    text-align:center;
+    padding:25px;
+    margin-top:40px;
+}
+
+@media(max-width:700px){
+    header h1{
+        font-size:34px;
+    }
+
+    banner h2{
+        font-size:38px;
+    }
+
+    .banner p{
+        font-size:17px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Glow Beauty</h1>
+</header>
+
+<section class="banner">
+<h2>Realce sua beleza!</h2>
+<p>Encontre as melhores maquiagens com qualidade, estilo e preços incríveis.</p>
+<a class="botao" href="/login">Login</a>
+</section>
+
+<section class="categorias">
+
+<div class="card">
+<h3>💜 Bases</h3>
+<p>Acabamento perfeito para todos os tipos de pele.</p>
+</div>
+
+<div class="card">
+<h3>✨ Corretivos</h3>
+<p>Cobertura natural e uniforme.</p>
+</div>
+
+<div class="card">
+<h3>💄 Batons</h3>
+<p>Cores vibrantes para qualquer ocasião.</p>
+</div>
+
+<div class="card">
+<h3>🌸 Blush</h3>
+<p>Realce saudável para seu rosto.</p>
+</div>
+
+</section>
+
+<footer>
+<p>Glow Beauty © 2026 - Mariana & Tuany</p>
+</footer>
+
+</body>
+</html>
