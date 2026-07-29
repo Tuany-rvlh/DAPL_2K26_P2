@@ -8,13 +8,13 @@
 
 <br>
 
-### 🌐 Desenvolvimento Web
+### 🌐 Web Development
 
-### Curso Técnico em Desenvolvimento de Sistemas
+### Technical Course in Systems Development
 
-### Escola Técnica de Eletrônica Francisco Moreira da Costa (ETE FMC)
+### Francisco Moreira da Costa Electronics Technical School (ETE FMC)
 
-### Orientador: **Prof. Daniel Mosca**
+### Advisor: **Prof. Daniel Mosca**
 
 <br>
 
@@ -25,8 +25,8 @@
 ![Node.js](https://img.shields.io/badge/Node.js-Backend-339933?style=for-the-badge&logo=node.js&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-API-000000?style=for-the-badge&logo=express&logoColor=white)
 
-![Git](https://img.shields.io/badge/Git-Versionamento-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-Repositório-181717?style=for-the-badge&logo=github&logoColor=white)
+![Git](https://img.shields.io/badge/Git-Version_Control-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white)
 
 <br>
 
@@ -35,44 +35,34 @@
 </div>
 
 
-# 👨‍💻 Sobre o repositório
+# 👨‍💻 About the Repository
 
-O **DAPL_2K26_P2** reúne projetos desenvolvidos durante o curso técnico de **Desenvolvimento de Sistemas**, envolvendo conceitos de **Frontend, Backend e Desenvolvimento Web**.
+The **DAPL_2K26_P2** repository contains projects developed during the **Systems Development Technical Course**, covering concepts related to **Frontend, Backend and Web Development**.
 
-O repositório apresenta a evolução prática no desenvolvimento de aplicações, desde interfaces interativas utilizando **HTML, CSS, JavaScript e Canvas**, até a criação de servidores e APIs utilizando **Node.js e Express**.
-
-Principais áreas trabalhadas:
-
-- 🌐 Desenvolvimento Web;
-- ⚙️ Desenvolvimento Backend;
-- 🎨 Interfaces interativas;
-- 🎮 Jogos utilizando Canvas;
-- 🔌 APIs REST;
-- 📦 Manipulação de dados JSON;
-- 🌳 Versionamento com Git e GitHub.
+This repository represents the practical evolution of application development, from interactive interfaces created with **HTML, CSS, JavaScript and Canvas**, to servers and APIs developed using **Node.js and Express**.
 
 
 ---
 
-# 🗂️ Sumário
+# 🗂️ Table of Contents
 
-- [👨‍💻 Sobre o repositório](#-sobre-o-repositório)
-- [📁 Estrutura do projeto](#-estrutura-do-projeto)
+- [👨‍💻 About the Repository](#-about-the-repository)
+- [📁 Project Structure](#-project-structure)
 
 - [⚙️ Backend](#️-backend)
   - [💄 Glow Beauty API](#-glow-beauty-api)
 
 - [🌐 Frontend](#-frontend)
-  - [🎮 Projetos em destaque](#-projetos-em-destaque)
+  - [🎮 Featured Projects](#-featured-projects)
 
-- [▶️ Como executar](#️-como-executar)
-- [🎯 Objetivos](#-objetivos)
-- [📈 Status do projeto](#-status-do-projeto)
+- [▶️ How to Run](#️-how-to-run)
+- [🎯 Objectives](#-objectives)
+- [📈 Project Status](#-project-status)
 
 
 ---
 
-# 📁 Estrutura do projeto
+# 📁 Project Structure
 
 ```text
 DAPL_2K26_P2/
@@ -97,159 +87,159 @@ DAPL_2K26_P2/
 └── .gitignore
 ```
 
-
 ---
 
 # ⚙️ Backend
 
-A área de **Backend** reúne projetos desenvolvidos utilizando **Node.js e Express**, explorando criação de servidores, APIs e comunicação entre cliente e servidor.
+The **Backend** section contains projects developed using **Node.js and Express**, exploring server creation, APIs and communication between client and server.
 
-Principais conceitos trabalhados:
+Main concepts developed:
 
-- Criação de servidores HTTP;
-- Rotas e endpoints;
-- Requisições GET e POST;
-- Manipulação de arquivos JSON;
-- Sistemas de autenticação;
-- Desenvolvimento de APIs REST;
-- Tratamento de respostas HTTP.
+- HTTP server creation;
+- Routes and endpoints;
+- GET and POST requests;
+- JSON file manipulation;
+- Authentication systems;
+- REST API development;
+- HTTP response handling.
 
 
 ---
 
 # 💄 Glow Beauty API
 
-A **Glow Beauty API** é uma aplicação backend desenvolvida utilizando **Node.js e Express**, simulando uma loja virtual de maquiagens.
+The **Glow Beauty API** is a backend application developed using **Node.js and Express**, simulating a virtual makeup store.
 
-O projeto possui comunicação baseada em JSON e testes de requisições utilizando Postman.
+The project uses **JSON-based communication** and request testing through **Postman**.
 
-| Projeto | Descrição | Tecnologias | Funcionalidades |
+| Project | Description | Technologies | Features |
 |:---:|---|---|---|
-| 💄 Glow Beauty API | API de gerenciamento de uma loja de maquiagens. | Node.js, Express, JSON, Postman | Login, produtos, filtros, estoque e carrinho |
+| 💄 Glow Beauty API | Makeup store management API. | Node.js, Express, JSON, Postman | Login, products, filters, inventory and shopping cart |
+
 
 ---
 
 # 🌐 Frontend
 
-A área de **Frontend** reúne projetos desenvolvidos utilizando:
+The **Frontend** section contains projects developed using:
 
 - HTML5;
 - CSS3;
 - JavaScript;
 - Canvas API.
 
-Os projetos exploram criação de interfaces, animações e aplicações interativas no navegador.
+The projects explore interface creation, animations and interactive browser applications.
 
-Principais conceitos trabalhados:
+Main concepts developed:
 
-- Manipulação do DOM;
-- Eventos de teclado e mouse;
-- Renderização gráfica;
-- Sistema de partículas;
-- Animações em tempo real;
-- Colisão entre objetos;
-- Desenvolvimento de jogos 2D.
+- DOM manipulation;
+- Keyboard and mouse events;
+- Graphic rendering;
+- Particle systems;
+- Real-time animations;
+- Object collision;
+- 2D game development.
+
+
 ---
 
-# 🎮 Projetos em destaque
+# 🎮 Featured Projects
 
-| Projeto | Descrição | Tecnologias | Conceitos aplicados |
+| Project | Description | Technologies | Applied Concepts |
 |:---:|---|---|---|
-| 🐍 **Jogo Snake** | Implementação do clássico jogo da cobrinha com pontuação, crescimento e colisões. | HTML Canvas, JavaScript | Movimentação, teclado, colisão, lógica de jogos |
-| 🌧️ **Chuva de Partículas** | Sistema de partículas com uma nuvem controlada pelo mouse e chuva gerada em tempo real. | HTML Canvas, JavaScript | Eventos de mouse, partículas, animações |
-| ⚡ **Caçadores de Elétrons** | Jogo baseado na Lei de Coulomb com interação entre cargas elétricas. | HTML Canvas, JavaScript | Física computacional, vetores, colisões |
-| 🌌 **Canvas Game** | Jogo de coleta com elementos dinâmicos e movimentação pelo cenário. | HTML Canvas, JavaScript | Animação, geração aleatória, colisão 2D |
-
+| 🐍 **Snake Game** | Implementation of the classic snake game with score system, growth mechanics and collisions. | HTML Canvas, JavaScript | Movement, keyboard events, collision, game logic |
+| 🌧️ **Particle Rain** | Particle system with a mouse-controlled cloud and real-time generated rain. | HTML Canvas, JavaScript | Mouse events, particles, animations |
+| ⚡ **Electron Hunters** | Game based on Coulomb's Law with interaction between electric charges. | HTML Canvas, JavaScript | Computational physics, vectors, collisions |
+| 🌌 **Canvas Game** | Collection game with dynamic elements and player movement. | HTML Canvas, JavaScript | Animation, random generation, 2D collision |
 
 
 ---
 
+# ▶️ How to Run
 
-# ▶️ Como executar
+## 📌 Requirements
 
-## 📌 Requisitos
+You need:
 
-Necessário possuir:
-
-- Node.js instalado;
+- Node.js installed;
 - Visual Studio Code;
-- Navegador atualizado.
+- Updated browser.
 
 
 ---
 
-# ⚙️ Executando projetos Backend
+# ⚙️ Running Backend Projects
 
-Entre na pasta do projeto desejado:
+Access the desired project folder:
 
 ```bash
 cd Backend/Projeto_MakeServer
 ```
 
-Instale as dependências:
+Install dependencies:
 
 ```bash
 npm install
 ```
 
-Execute o servidor:
+Start the server:
 
 ```bash
 node app.js
 ```
 
-O servidor será iniciado no terminal.
+The server will start running in the terminal.
 
 
 ---
 
-# 🌐 Executando projetos Frontend
+# 🌐 Running Frontend Projects
 
-Entre na pasta do projeto:
+Access the project folder:
 
 ```bash
 cd Frontend/Desafios/Jogo_Snake
 ```
 
-Abra o arquivo:
+Open the file:
 
 ```text
 index.html
 ```
 
-Também é possível utilizar:
+You can also use:
 
 ```text
 Live Server
 ```
 
-para executar diretamente pelo navegador.
+to run the project directly in the browser.
 
 
 ---
 
-# 🎯 Objetivos
+# 🎯 Objectives
 
-Este repositório tem como objetivo registrar a evolução prática no desenvolvimento de sistemas Web durante o curso técnico de **Desenvolvimento de Sistemas**.
+This repository aims to record the practical evolution of **Web Systems Development** during the **Systems Development Technical Course**.
 
-Principais objetivos:
+Main objectives:
 
-- 🌐 Desenvolver aplicações Web;
-- ⚙️ Criar servidores e APIs;
-- 🔌 Compreender comunicação cliente-servidor;
-- 🎮 Desenvolver jogos utilizando Canvas;
-- 🧠 Aprimorar lógica de programação;
-- 🔬 Aplicar conceitos científicos em software;
-- 📂 Organizar projetos utilizando Git e GitHub.
+- 🌐 Develop Web applications;
+- ⚙️ Create servers and APIs;
+- 🔌 Understand client-server communication;
+- 🎮 Develop games using Canvas;
+- 🧠 Improve programming logic;
+- 🔬 Apply scientific concepts in software;
+- 📂 Organize projects using Git and GitHub.
 
 
 ---
 
-# 📈 Status do projeto
+# 📈 Project Status
 
-🟡 **Em desenvolvimento**
+🟡 **Under Development**
 
-Novos projetos, exercícios e aplicações serão adicionados conforme a evolução dos estudos em **Desenvolvimento de Sistemas**.
+New projects, exercises and applications will be added according to the progress of studies in **Systems Development**.
 
 
 ---
@@ -262,13 +252,13 @@ Novos projetos, exercícios e aplicações serão adicionados conforme a evoluç
 
 🌐 💻 ⚙️ 🚀
 
-### Desenvolvido por
+### Developed by
 
 **Tuany Silva Pereira — 34DS**
 
-**Curso Técnico em Desenvolvimento de Sistemas**
+**Technical Course in Systems Development**
 
-**Escola Técnica de Eletrônica Francisco Moreira da Costa (ETE FMC)**
+**Francisco Moreira da Costa Electronics Technical School (ETE FMC)**
 
 **2026**
 
