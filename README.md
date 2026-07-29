@@ -4,24 +4,6 @@
 
 <br>
 
-<!-- Animação da cobrinha -->
-
-<svg width="500" height="80" viewBox="0 0 500 80" xmlns="http://www.w3.org/2000/svg">
-
-<circle cx="30" cy="40" r="12" fill="#0A9396">
-    <animate attributeName="cx" from="30" to="470" dur="4s" repeatCount="indefinite"/>
-</circle>
-
-<circle cx="10" cy="40" r="8" fill="#94D2BD">
-    <animate attributeName="cx" from="10" to="450" dur="4s" repeatCount="indefinite"/>
-</circle>
-
-<circle cx="-10" cy="40" r="6" fill="#E9D8A6">
-    <animate attributeName="cx" from="-10" to="430" dur="4s" repeatCount="indefinite"/>
-</circle>
-
-</svg>
-
 <br>
 
 <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=24&duration=3000&pause=900&color=94D2BD&center=true&vCenter=true&width=750&lines=Initializing+DAPL+2K26...;Loading+Frontend+Environment...;Rendering+Canvas...;Creating+Web+Interfaces...;Developing+Interactive+Applications...;System+Online+✓"/>
@@ -35,6 +17,7 @@
 ### Escola Técnica de Eletrônica Francisco Moreira da Costa (ETE FMC)
 
 ### Orientador: **Prof. Daniel Mosca**
+
 
 <br>
 
@@ -53,7 +36,6 @@
 ![VS Code](https://img.shields.io/badge/VS%20Code-Editor-007ACC?style=for-the-badge\&logo=visualstudiocode\&logoColor=white)
 
 <br><br>
-
 ---
 
 </div>
