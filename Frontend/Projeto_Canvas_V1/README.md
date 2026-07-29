@@ -136,15 +136,6 @@ git clone https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git
 
 Não é necessário instalar dependências ou utilizar servidor.
 
----
-
-# 📸 Demonstração
-
-> Adicione aqui um GIF ou uma captura de tela do jogo.
-
-```
-assets/demo.gif
-```
 
 ---
 
