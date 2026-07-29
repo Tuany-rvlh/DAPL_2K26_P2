@@ -48,7 +48,8 @@ This repository represents the practical evolution of application development, f
 
 - [👨‍💻 About the Repository](#-about-the-repository)
 - [📁 Project Structure](#-project-structure)
-
+- [📚 Additional Documentation](#-additional-documentation)
+  
 - [⚙️ Backend](#️-backend)
   - [💄 Glow Beauty API](#-glow-beauty-api)
 
@@ -59,6 +60,20 @@ This repository represents the practical evolution of application development, f
 - [🎯 Objectives](#-objectives)
 - [📈 Project Status](#-project-status)
 
+
+---
+
+# 📚 Additional Documentation
+
+Some projects in this repository have their own dedicated documentation with more detailed information about their structure, features and execution.
+
+The following projects include their own **README.md** files:
+
+- 💄 **Glow Beauty API** 
+- ⚡ **Electron Hunters**
+- 🌌 **Canvas Game**
+
+Each project README provides specific instructions, explanations of the implementation and additional details about the technologies used.
 
 ---
 
