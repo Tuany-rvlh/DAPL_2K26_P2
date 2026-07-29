@@ -39,17 +39,17 @@
 
 O **DAPL_2K26_P2** reúne projetos desenvolvidos durante o curso técnico de **Desenvolvimento de Sistemas**, envolvendo conceitos de **Frontend, Backend e Desenvolvimento Web**.
 
-O repositório apresenta a evolução prática no desenvolvimento de aplicações, desde a criação de interfaces interativas e animações utilizando **HTML, CSS e JavaScript**, até a construção de servidores e APIs utilizando **Node.js e Express**.
+O repositório apresenta a evolução prática no desenvolvimento de aplicações, desde interfaces interativas utilizando **HTML, CSS, JavaScript e Canvas**, até a criação de servidores e APIs utilizando **Node.js e Express**.
 
-Durante o desenvolvimento foram explorados:
+Principais áreas trabalhadas:
 
-- Desenvolvimento Web;
-- Comunicação cliente-servidor;
-- Criação de APIs REST;
-- Manipulação de dados em JSON;
-- Animações utilizando Canvas;
-- Desenvolvimento de jogos 2D;
-- Organização de projetos utilizando Git e GitHub.
+- 🌐 Desenvolvimento Web;
+- ⚙️ Desenvolvimento Backend;
+- 🎨 Interfaces interativas;
+- 🎮 Jogos utilizando Canvas;
+- 🔌 APIs REST;
+- 📦 Manipulação de dados JSON;
+- 🌳 Versionamento com Git e GitHub.
 
 
 ---
@@ -64,10 +64,6 @@ Durante o desenvolvimento foram explorados:
 
 - [🌐 Frontend](#-frontend)
   - [🎮 Projetos em destaque](#-projetos-em-destaque)
-    - [🐍 Jogo Snake](#-jogo-snake)
-    - [🌧️ Chuva de Partículas](#️-chuva-de-partículas)
-    - [⚡ Caçadores de Elétrons](#-caçadores-de-elétrons)
-    - [🌌 Canvas Game](#-canvas-game)
 
 - [▶️ Como executar](#️-como-executar)
 - [🎯 Objetivos](#-objetivos)
@@ -101,171 +97,75 @@ DAPL_2K26_P2/
 └── .gitignore
 ```
 
+
 ---
 
 # ⚙️ Backend
 
-A área de **Backend** reúne projetos desenvolvidos utilizando **Node.js** e **Express**, com foco na criação de servidores, APIs e comunicação entre aplicações.
+A área de **Backend** reúne projetos desenvolvidos utilizando **Node.js e Express**, explorando criação de servidores, APIs e comunicação entre cliente e servidor.
 
-Durante o desenvolvimento foram trabalhados conceitos fundamentais de aplicações no lado do servidor:
+Principais conceitos trabalhados:
 
 - Criação de servidores HTTP;
-- Organização de rotas e endpoints;
-- Requisições e respostas HTTP;
-- Métodos GET e POST;
+- Rotas e endpoints;
+- Requisições GET e POST;
 - Manipulação de arquivos JSON;
 - Sistemas de autenticação;
 - Desenvolvimento de APIs REST;
-- Comunicação entre cliente e servidor.
-
-Os projetos exploram desde servidores simples utilizando o módulo nativo do Node.js até aplicações completas utilizando Express.
+- Tratamento de respostas HTTP.
 
 
 ---
 
 # 💄 Glow Beauty API
 
-A **Glow Beauty API** é uma aplicação backend desenvolvida utilizando **Node.js e Express**, simulando o funcionamento de uma loja virtual de maquiagens.
+A **Glow Beauty API** é uma aplicação backend desenvolvida utilizando **Node.js e Express**, simulando uma loja virtual de maquiagens.
 
-O sistema permite o gerenciamento de usuários, produtos e compras através de uma API com comunicação baseada em JSON.
+O projeto possui comunicação baseada em JSON e testes de requisições utilizando Postman.
 
-Principais funcionalidades:
-
-- Sistema de login;
-- Consulta de produtos;
-- Filtros por categoria;
-- Controle de estoque;
-- Gerenciamento de carrinho;
-- Respostas HTTP padronizadas;
-- Testes utilizando Postman.
-
-Conceitos aplicados:
-
-`Node.js` `Express` `REST API` `JSON` `Postman`
+| Projeto | Descrição | Tecnologias | Funcionalidades |
+|:---:|---|---|---|
+| 💄 Glow Beauty API | API de gerenciamento de uma loja de maquiagens. | Node.js, Express, JSON, Postman | Login, produtos, filtros, estoque e carrinho |
 
 ---
 
 # 🌐 Frontend
 
-A área de **Frontend** reúne projetos desenvolvidos utilizando **HTML5, CSS3, JavaScript e API Canvas**, explorando criação de interfaces, animações e aplicações interativas.
+A área de **Frontend** reúne projetos desenvolvidos utilizando:
 
-Os projetos desenvolvidos possuem foco na aplicação prática de lógica de programação, manipulação de elementos gráficos e interação com o usuário através do navegador.
+- HTML5;
+- CSS3;
+- JavaScript;
+- Canvas API.
+
+Os projetos exploram criação de interfaces, animações e aplicações interativas no navegador.
 
 Principais conceitos trabalhados:
 
-- Estruturação de páginas Web;
-- Estilização de interfaces;
 - Manipulação do DOM;
 - Eventos de teclado e mouse;
-- Renderização utilizando Canvas;
-- Sistemas de partículas;
-- Movimentação de objetos;
-- Detecção de colisões;
+- Renderização gráfica;
+- Sistema de partículas;
 - Animações em tempo real;
+- Colisão entre objetos;
 - Desenvolvimento de jogos 2D.
-
-
 ---
 
 # 🎮 Projetos em destaque
 
+| Projeto | Descrição | Tecnologias | Conceitos aplicados |
+|:---:|---|---|---|
+| 🐍 **Jogo Snake** | Implementação do clássico jogo da cobrinha com pontuação, crescimento e colisões. | HTML Canvas, JavaScript | Movimentação, teclado, colisão, lógica de jogos |
+| 🌧️ **Chuva de Partículas** | Sistema de partículas com uma nuvem controlada pelo mouse e chuva gerada em tempo real. | HTML Canvas, JavaScript | Eventos de mouse, partículas, animações |
+| ⚡ **Caçadores de Elétrons** | Jogo baseado na Lei de Coulomb com interação entre cargas elétricas. | HTML Canvas, JavaScript | Física computacional, vetores, colisões |
+| 🌌 **Canvas Game** | Jogo de coleta com elementos dinâmicos e movimentação pelo cenário. | HTML Canvas, JavaScript | Animação, geração aleatória, colisão 2D |
 
-## 🐍 Jogo Snake
-
-Implementação do clássico jogo da cobrinha utilizando **JavaScript e HTML Canvas**.
-
-O jogador controla a cobra pelo teclado, coletando itens espalhados pelo cenário enquanto aumenta sua pontuação e evita colisões.
-
-Principais funcionalidades:
-
-- Controle por teclado;
-- Movimentação contínua;
-- Sistema de pontuação;
-- Crescimento da cobra;
-- Geração de itens;
-- Detecção de colisões;
-- Tela de Game Over.
-
-Conceitos aplicados:
-
-`HTML Canvas` `JavaScript` `Eventos de Teclado` `Lógica de Jogos`
 
 
 ---
 
-## 🌧️ Chuva de Partículas
-
-Projeto desenvolvido utilizando **HTML Canvas e JavaScript**, explorando animações, partículas e interação com o usuário.
-
-O sistema cria uma nuvem controlada pelo movimento do mouse, permitindo movimentar a formação pela tela enquanto gotas de chuva são geradas continuamente.
-
-Principais funcionalidades:
-
-- Controle da nuvem através do mouse;
-- Sistema de partículas para criação das gotas;
-- Movimento independente da chuva;
-- Animação contínua;
-- Atualização dinâmica dos elementos;
-- Efeitos visuais utilizando Canvas.
-
-Conceitos aplicados:
-
-`HTML Canvas` `JavaScript` `Eventos de Mouse` `Sistema de Partículas` `Animações`
-
-
----
-
-## ⚡ Caçadores de Elétrons
-
-Jogo desenvolvido utilizando conceitos de **física e programação gráfica**, baseado na **Lei de Coulomb**.
-
-O jogador controla partículas carregadas eletricamente enquanto interage com forças de atração e repulsão presentes no ambiente.
-
-O projeto utiliza conceitos físicos para simular o comportamento das cargas elétricas durante a partida.
-
-Principais funcionalidades:
-
-- Simulação de cargas elétricas;
-- Atração e repulsão entre partículas;
-- Movimento baseado em vetores;
-- Sistema de colisões;
-- Captura de elétrons;
-- Sistema de vidas;
-- Projéteis elétricos;
-- Diferentes níveis de dificuldade;
-- Modo para um ou dois jogadores.
-
-Conceitos aplicados:
-
-`HTML Canvas` `JavaScript` `Física Computacional` `Vetores` `Simulação Física`
-
-
----
-
-## 🌌 Canvas Game
-
-Projeto desenvolvido para aprofundar conceitos de animação e interação utilizando a API Canvas.
-
-O jogador controla um objeto pelo cenário com o objetivo de coletar pontos enquanto evita elementos dinâmicos presentes no mapa.
-
-Principais funcionalidades:
-
-- Movimentação do jogador;
-- Geração aleatória de elementos;
-- Sistema de coleta;
-- Colisão 2D;
-- Atualização dinâmica da tela;
-- Controle através do teclado.
-
-Conceitos aplicados:
-
-`HTML5 Canvas` `JavaScript` `Colisão 2D` `Animação` `Eventos`
-
-
----
 
 # ▶️ Como executar
-
 
 ## 📌 Requisitos
 
@@ -278,9 +178,9 @@ Necessário possuir:
 
 ---
 
-## ⚙️ Executando projetos Backend
+# ⚙️ Executando projetos Backend
 
-Acesse a pasta do projeto desejado:
+Entre na pasta do projeto desejado:
 
 ```bash
 cd Backend/Projeto_MakeServer
@@ -303,9 +203,9 @@ O servidor será iniciado no terminal.
 
 ---
 
-## 🌐 Executando projetos Frontend
+# 🌐 Executando projetos Frontend
 
-Acesse a pasta do projeto:
+Entre na pasta do projeto:
 
 ```bash
 cd Frontend/Desafios/Jogo_Snake
@@ -317,29 +217,30 @@ Abra o arquivo:
 index.html
 ```
 
-ou utilize a extensão:
+Também é possível utilizar:
 
 ```text
 Live Server
 ```
+
+para executar diretamente pelo navegador.
 
 
 ---
 
 # 🎯 Objetivos
 
-Este repositório tem como objetivo registrar a evolução prática no desenvolvimento de sistemas Web, aplicando conceitos aprendidos durante o curso técnico de **Desenvolvimento de Sistemas**.
+Este repositório tem como objetivo registrar a evolução prática no desenvolvimento de sistemas Web durante o curso técnico de **Desenvolvimento de Sistemas**.
 
 Principais objetivos:
 
 - 🌐 Desenvolver aplicações Web;
 - ⚙️ Criar servidores e APIs;
-- 🔗 Compreender comunicação cliente-servidor;
+- 🔌 Compreender comunicação cliente-servidor;
 - 🎮 Desenvolver jogos utilizando Canvas;
 - 🧠 Aprimorar lógica de programação;
 - 🔬 Aplicar conceitos científicos em software;
-- 📂 Organizar projetos utilizando Git e GitHub;
-- 🚀 Desenvolver soluções interativas e funcionais.
+- 📂 Organizar projetos utilizando Git e GitHub.
 
 
 ---
@@ -348,9 +249,7 @@ Principais objetivos:
 
 🟡 **Em desenvolvimento**
 
-Este repositório continuará recebendo novos projetos, exercícios e aplicações conforme a evolução dos estudos em **Desenvolvimento de Sistemas**.
-
-A cada novo projeto, são aplicados conceitos de programação, desenvolvimento Web, organização de código e criação de soluções digitais.
+Novos projetos, exercícios e aplicações serão adicionados conforme a evolução dos estudos em **Desenvolvimento de Sistemas**.
 
 
 ---
