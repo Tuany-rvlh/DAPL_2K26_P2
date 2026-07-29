@@ -55,7 +55,6 @@ A comunicação entre cliente e servidor é realizada utilizando o formato **JSO
 
 - [💄 Sobre o projeto](#-sobre-o-projeto)
 - [📁 Estrutura do projeto](#-estrutura-do-projeto)
-- [🚀 Tecnologias utilizadas](#-tecnologias-utilizadas)
 - [📡 Contrato da API](#-contrato-da-api)
 - [🧪 Testes no Postman](#-testes-no-postman)
 - [▶️ Como executar](#️-como-executar)
@@ -84,20 +83,6 @@ Glow_Beauty_API/
 │
 └── README.md
 ```
-
-
----
-
-# 🚀 Tecnologias utilizadas
-
-| Tecnologia | Utilização |
-|:---:|---|
-| 🟢 Node.js | Execução JavaScript no servidor |
-| ⚫ Express | Criação das rotas e API |
-| 📦 JSON | Transporte dos dados |
-| 🧪 Postman | Testes das requisições HTTP |
-| 🌐 HTML | Interface das páginas |
-| 🌳 Git/GitHub | Versionamento do projeto |
 
 
 ---
