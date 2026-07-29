@@ -1,103 +1,173 @@
-# 🎮 Canvas Game - Coleta de Pontos
+<div align="center">
 
-Este projeto é um mini game desenvolvido em **JavaScript + HTML Canvas**, com foco em lógica de programação, manipulação do DOM e animações em tempo real.
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:FFF700,50:FFC300,100:FF8C00&text=%20Canvas%20Game&fontColor=1A1A1A&fontSize=55&animation=fadeIn&fontAlignY=38&desc=Coleta%20de%20Pontos%20•%20HTML5%20Canvas%20•%20JavaScript&descAlignY=58"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3500&pause=1000&color=FF8C00&center=true&vCenter=true&width=700&lines=Mini+Game+feito+com+HTML+Canvas;Movimenta%C3%A7%C3%A3o+em+tempo+real;Sistema+de+Colis%C3%A3o+2D;JavaScript+Vanilla"/>
+<br>
 
----
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+<img src="https://img.shields.io/badge/Canvas-000000?style=for-the-badge&logo=html5&logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
 
-## 📌 Descrição
-
-O jogo consiste em um jogador controlado pelas setas do teclado que deve **coletar todos os pontos espalhados pela tela**.
-
-Ao mesmo tempo, existe um “núcleo” central que se move com efeito de tremor e influencia o comportamento dos pontos.
-
----
-
-## 🎯 Objetivo do Jogo
-
-- Mover o jogador pelo mapa
-- Coletar todos os **25 pontos amarelos**
-- Evitar colisão com o núcleo central
-- Completar o jogo para exibir a mensagem final
+</div>
 
 ---
 
-## 🕹️ Controles
+# 📖 Sobre o Projeto
 
-- ⬆️ Seta para cima → move para cima  
-- ⬇️ Seta para baixo → move para baixo  
-- ⬅️ Seta para esquerda → move para esquerda  
-- ➡️ Seta para direita → move para direita  
+Neste jogo, o jogador controla um quadrado utilizando as setas do teclado com o objetivo de **coletar todos os pontos espalhados pelo mapa**.
 
----
+Entretanto, existe um **núcleo central** que permanece em constante movimento, alterando o comportamento dos pontos ao seu redor e tornando a partida mais desafiadora.
 
-## ⚙️ Mecânicas
-
-### 🎯 Coleta de pontos
-- Existem **25 pontos aleatórios**
-- Ao encostar em um ponto, ele é removido
-- Um contador mostra o progresso (`coletados/25`)
+Caso o jogador toque no núcleo, todo o progresso é perdido e a partida reinicia.
 
 ---
 
-### 🌌 Núcleo central
-- Um círculo branco se move com efeito de “tremor”
-- Os pontos são:
-  - **atraídos** quando o núcleo vai para um lado
-  - **repelidos** quando muda de direção
+# 🎯 Objetivo
+
+- 🎮 Controlar o jogador pelo cenário;
+- ⭐ Coletar todos os **25 pontos**;
+- ⚠️ Evitar o núcleo central;
+- 🏆 Completar o jogo para vencer.
 
 ---
 
-### 💥 Colisão com o núcleo
-Se o jogador encostar no núcleo:
-- O jogador volta para a posição inicial
-- Os pontos são resetados
-- O progresso volta para 0
+# 🕹️ Controles
+
+| Tecla | Ação |
+|-------|------|
+| ⬆️ | Mover para cima |
+| ⬇️ | Mover para baixo |
+| ⬅️ | Mover para esquerda |
+| ➡️ | Mover para direita |
 
 ---
 
-## 🧠 Lógica do Projeto
+# ⚙️ Mecânicas
 
-O jogo funciona com:
+## ⭐ Sistema de Coleta
 
-- `canvas` para renderização
-- `requestAnimationFrame` para animação contínua
+- 25 pontos são gerados aleatoriamente pelo mapa;
+- Ao tocar em um ponto, ele desaparece;
+- Um contador acompanha o progresso da coleta.
+
+---
+
+## 🌌 Núcleo Central
+
+O núcleo realiza um movimento contínuo com efeito de tremor.
+
+Durante esse movimento, ele altera a posição dos pontos:
+
+- 🧲 Atrai os pontos em determinadas direções;
+- 💥 Repele os pontos quando muda seu sentido de movimento.
+
+Essa dinâmica torna cada partida diferente.
+
+---
+
+## 💥 Colisão
+
+Se o jogador tocar no núcleo:
+
+- ❌ Retorna para a posição inicial;
+- 🔄 Todos os pontos são recriados;
+- 📉 O contador volta para zero.
+
+---
+
+# 🧠 Conceitos Trabalhados
+
+O projeto utiliza diversos conceitos importantes de desenvolvimento com Canvas:
+
+- Renderização utilizando **HTML Canvas**
+- Loop de animação com `requestAnimationFrame()`
 - Eventos de teclado (`keydown` e `keyup`)
-- Vetores de posição para jogador e pontos
-- Colisão baseada em coordenadas (AABB)
+- Movimentação em tempo real
+- Geração de posições aleatórias
+- Colisão 2D (AABB)
+- Manipulação de vetores
+- Atualização dinâmica da tela
 
 ---
 
-## 🏁 Condição de Vitória
+# 🏆 Condição de Vitória
 
-O jogo termina quando:
+O jogo termina quando todos os pontos são coletados.
 
-- Todos os **25 pontos são coletados**
-- A mensagem **"FIM DE JOGO"** é exibida no centro da tela
+Ao concluir a partida, é exibida a mensagem:
+
+```text
+FIM DE JOGO
+```
 
 ---
 
-## 💻 Tecnologias Utilizadas
+# 💻 Tecnologias
 
+- HTML5
 - HTML Canvas
-- JavaScript puro (Vanilla JS)
-- Manipulação de eventos do DOM
+- JavaScript (Vanilla JS)
 
 ---
 
-## 📂 Estrutura do Projeto
+# 📂 Estrutura do Projeto
 
-- `canvas` → área do jogo
-- `animate()` → loop principal do jogo
-- `random()` → geração de posições aleatórias
-- Sistema de colisão → jogador vs pontos e núcleo
+```text
+📁 Canvas-Game
+│
+├── index.html
+├── canvas.js
+└── README.md
+```
 
 ---
 
-## 📌 Observações
+# 🚀 Como Executar
 
-Projeto desenvolvido com foco em aprendizado de:
+1. Clone este repositório:
 
-- Lógica de jogos
-- Animações com Canvas
-- Controle de eventos
-- Colisão 2D simples
+```bash
+git clone https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git
+```
+
+2. Entre na pasta do projeto.
+
+3. Abra o arquivo **index.html** no navegador.
+
+Não é necessário instalar dependências ou utilizar servidor.
+
+---
+
+# 📸 Demonstração
+
+> Adicione aqui um GIF ou uma captura de tela do jogo.
+
+```
+assets/demo.gif
+```
+
+---
+
+# 📚 Aprendizados
+
+Este projeto foi desenvolvido com o objetivo de praticar:
+
+- Desenvolvimento de jogos 2D
+- HTML Canvas
+- JavaScript puro
+- Manipulação do DOM
+- Eventos do teclado
+- Animações
+- Colisão entre objetos
+- Lógica de programação
+
+---
+<div align="center">
+
+## ⭐ Obrigado por visitar este projeto!
+
+Se este projeto foi útil ou interessante para você, considere deixar uma ⭐ no repositório.
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=130&color=0:FFF700,50:FFC300,100:FF8C00"/>
+
+</div>
