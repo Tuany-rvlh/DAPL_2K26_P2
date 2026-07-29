@@ -1,0 +1,61 @@
+<!--
+Exercício 4 – Controle de velocidade
+
+Desenvolva uma página utilizando a API Canvas do HTML5 contendo um
+quadrado em movimento.
+
+Requisitos:
+• O quadrado deve se movimentar continuamente nas direções horizontal
+e vertical utilizando as variáveis de velocidade dx e dy.
+
+• O quadrado deve permanecer sempre dentro dos limites do canvas,
+invertendo automaticamente o sentido ao atingir qualquer uma das bordas.
+
+• Adicione um botão que permita interromper a movimentação do quadrado,
+mantendo sua posição atual.
+
+• Adicione um controle deslizante (slider) que permita alterar a
+velocidade de movimentação do quadrado em tempo real.
+
+• Exiba o botão, o slider e o canvas na mesma página.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Canvas</title>
+    <style type ="text/css">
+        canvas{
+            border: 1px solid black;
+        }
+        
+
+        body {
+            margin: 0
+        }
+    </style>
+</head>
+
+<body>
+
+    <button id="btnParar">Parar</button>
+
+    <div class="slidecontainer">
+        <p>Velocidade: <span id="valorVelocidade">4</span></p>
+
+        <input
+            type="range"
+            min="1"
+            max="10"
+            value="4"
+            class="slider"
+            id="velocidade">
+    </div>
+    
+    <canvas></canvas>
+    <script src="canvas.js"></script>
+    
+</body>
+</html>

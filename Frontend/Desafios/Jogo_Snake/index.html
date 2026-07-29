@@ -1,0 +1,81 @@
+<!doctype html>
+
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SNAKE - Cobra</title>
+    <style>
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #1a1a1a;
+            color: white;
+        }
+        h1 {
+            margin-bottom: 5px;
+            color: #00ff37;
+        }
+        p {
+            margin: 8px;
+        }
+
+        #placar {
+            font-size: 22px;
+            font-weight: bold;
+            color: #ffffff;
+        }
+
+        canvas {
+            border: 3px solid #00ff37;
+            display: block;
+            margin: 20px auto;
+            background-color: #111;
+
+        }
+
+        button {
+            display: none;
+            padding: 12px 25px;
+            font-size: 18px;
+            font-weight: bold;
+            color: white;
+            background-color: #00ff37;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #00cc2f;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>🐍 SNAKE - Cobra</h1>
+    <p>
+        Use as setas do teclado para movimentar a cobra. Coma as frutas vermelhas para crescer.
+    </p>
+    <p id="placar">
+        Pontos: 0
+    </p>
+
+    <!-- Área onde o jogo será desenhado -->
+    <canvas width="900" height="450"></canvas>
+
+    <!-- Aparece somente quando ocorre Game Over -->
+    <button id="reiniciar">
+        Jogar novamente
+    </button>
+
+    <!-- Código do jogo -->
+    <script src="canvas.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+<!--
+Exercício 3 – Controle da animação
+
+Desenvolva uma página utilizando a API Canvas do HTML5 contendo um
+quadrado em movimento.
+
+Requisitos:
+• O quadrado deve se movimentar continuamente nas direções horizontal
+e vertical utilizando as variáveis de velocidade (dx e dy).
+
+• A posição do objeto deve ser atualizada a cada quadro da animação,
+somando os valores de dx e dy às coordenadas x e y.
+
+• O quadrado deve permanecer sempre dentro dos limites do canvas,
+invertendo automaticamente o sentido ao atingir qualquer borda.
+
+• Adicione um botão que permita interromper a animação. Ao ser clicado,
+o quadrado deverá permanecer exatamente na posição em que se encontra,
+interrompendo seu movimento.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Canvas</title>
+    <style type ="text/css">
+        canvas{
+            border: 1px solid black;
+        }
+        
+
+        body {
+            margin: 0
+        }
+    </style>
+</head>
+
+<body>
+
+    <button id="btnParar">Parar</button>
+    
+    <canvas></canvas>
+    <script src="canvas.js"></script>
+    
+</body>
+</html>
