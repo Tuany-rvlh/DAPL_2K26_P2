@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Status HTTP</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-family:Arial, sans-serif;
+
+    background:
+    linear-gradient(135deg,#080808,#202040);
+
+    color:white;
+
+}
+
+
+.container{
+
+    width:500px;
+
+    padding:40px;
+
+    text-align:center;
+
+    background:
+    rgba(255,255,255,0.08);
+
+    border-radius:25px;
+
+    border:1px solid rgba(255,255,255,0.2);
+
+    backdrop-filter:blur(10px);
+
+    box-shadow:
+    0 0 30px #00ffff55;
+
+}
+
+
+h1{
+
+    color:#00ffff;
+
+    font-size:40px;
+
+    margin-bottom:15px;
+
+}
+
+
+p{
+
+    color:#ddd;
+
+    margin-bottom:25px;
+
+}
+
+
+a{
+
+    display:block;
+
+    margin:12px;
+
+    padding:15px;
+
+    border-radius:15px;
+
+    text-decoration:none;
+
+    color:white;
+
+    background:#252525;
+
+    border:1px solid #444;
+
+    transition:.3s;
+
+}
+
+
+a:hover{
+
+    transform:scale(1.05);
+
+    background:#00ffff;
+
+    color:black;
+
+    box-shadow:
+    0 0 20px #00ffff;
+
+}
+
+
+/* Caixa do 404 */
+
+.erro-box{
+
+    margin-top:30px;
+
+    padding:20px;
+
+    border-radius:20px;
+
+    border:2px solid #ff4757;
+
+    background:
+    rgba(255,71,87,0.1);
+
+}
+
+
+.erro-box h2{
+
+    color:#ff4757;
+
+    margin-bottom:10px;
+
+}
+
+
+.erro-box a{
+
+    background:#ff4757;
+
+    border:none;
+
+}
+
+
+.erro-box a:hover{
+
+    background:#ff6b81;
+
+    color:white;
+
+}
+
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<div class="container">
+
+
+<h1>Servidor HTTP</h1>
+
+<p>
+Teste diferentes códigos de resposta HTTP:
+</p>
+
+
+<a href="/status100">
+Código 100 - Informativo
+</a>
+
+
+<a href="/status200">
+Código 200 - Sucesso
+</a>
+
+
+<a href="/status300">
+Código 300 - Redirecionamento
+</a>
+
+
+<a href="/status400">
+Código 400 - Erro do Cliente
+</a>
+
+
+<a href="/status500">
+Código 500 - Erro do Servidor
+</a>
+
+
+
+<div class="erro-box">
+
+<h2>Teste o erro 404</h2>
+
+<p>
+Clique abaixo para acessar uma página inexistente:
+</p>
+
+
+<a href="/pagina-inexistente">
+Abrir página 404
+</a>
+
+
+</div>
+
+
+</div>
+
+
+</body>
+
+</html>

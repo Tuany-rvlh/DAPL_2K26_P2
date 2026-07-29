@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>404 - Página não encontrada</title>
+
+<style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: radial-gradient(circle at top, #202040, #090909);
+    color: white;
+    overflow: hidden;
+}
+
+/* Fundo animado */
+body::before {
+    content: "";
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: #ff4757;
+    filter: blur(120px);
+    opacity: 0.25;
+    animation: mover 5s infinite alternate;
+}
+
+@keyframes mover {
+    from {
+        transform: translate(-100px, -50px);
+    }
+
+    to {
+        transform: translate(100px, 50px);
+    }
+}
+
+.container {
+
+    position: relative;
+    width: 450px;
+    padding: 50px;
+    text-align: center;
+
+    background: rgba(255,255,255,0.08);
+    border: 2px solid rgba(255,255,255,0.15);
+    border-radius: 25px;
+
+    backdrop-filter: blur(10px);
+
+    box-shadow:
+    0 0 30px rgba(255,71,87,0.4);
+
+    animation: aparecer 1s ease;
+
+}
+
+@keyframes aparecer {
+
+from {
+    opacity:0;
+    transform: translateY(40px);
+}
+
+to {
+    opacity:1;
+    transform: translateY(0);
+}
+
+}
+
+
+.erro {
+
+    font-size: 120px;
+    font-weight: bold;
+    color: #ff4757;
+
+    text-shadow:
+    0 0 10px #ff4757,
+    0 0 30px #ff4757;
+
+    animation: piscar 2s infinite;
+
+}
+
+
+@keyframes piscar {
+
+50% {
+    text-shadow:
+    0 0 20px #ff4757,
+    0 0 50px #ff4757;
+}
+
+}
+
+
+h2 {
+
+    font-size: 28px;
+    margin-bottom: 15px;
+
+}
+
+
+p {
+
+    color:#ddd;
+    font-size:18px;
+    margin-bottom:30px;
+
+}
+
+
+a {
+
+    display:inline-block;
+
+    padding:15px 30px;
+
+    background:linear-gradient(45deg,#ff4757,#ff6b81);
+
+    color:white;
+
+    text-decoration:none;
+
+    border-radius:30px;
+
+    font-weight:bold;
+
+    transition:.3s;
+
+}
+
+
+a:hover {
+
+    transform:scale(1.1);
+
+    box-shadow:
+    0 0 20px #ff4757;
+
+}
+
+.emoji {
+
+    font-size:50px;
+
+    animation: girar 3s infinite;
+
+}
+
+
+@keyframes girar {
+
+0%,100% {
+    transform:rotate(0deg);
+}
+
+50% {
+    transform:rotate(15deg);
+}
+
+}
+
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<div class="container">
+
+<div class="emoji">🚧</div>
+
+<div class="erro">
+404
+</div>
+
+<h2>Página não encontrada</h2>
+
+<p>
+Parece que o endereço que você tentou acessar não existe ou foi removido.
+</p>
+
+
+<a href="/">
+Voltar para o início
+</a>
+
+
+</div>
+
+
+</body>
+
+</html>

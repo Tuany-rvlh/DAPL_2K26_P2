@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Você Perdeu</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-family:"Segoe UI", Arial, sans-serif;
+
+    background:
+    radial-gradient(circle,#4b1010,#090909);
+
+    color:white;
+
+    overflow:hidden;
+
+}
+
+
+/* partículas */
+
+body::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:500px;
+    height:500px;
+
+    background:#ff4757;
+
+    filter:blur(150px);
+
+    opacity:.25;
+
+    animation:movimento 5s infinite alternate;
+
+}
+
+
+@keyframes movimento{
+
+from{
+    transform:translate(-150px,-100px);
+}
+
+to{
+    transform:translate(150px,100px);
+}
+
+}
+
+
+
+.container{
+
+    position:relative;
+
+    width:450px;
+
+    padding:50px;
+
+    text-align:center;
+
+    background:
+    rgba(255,255,255,.08);
+
+    border-radius:30px;
+
+    border:2px solid rgba(255,71,87,.5);
+
+    backdrop-filter:blur(10px);
+
+    box-shadow:
+    0 0 40px #ff475755;
+
+    animation:entrada 1s;
+
+}
+
+
+
+@keyframes entrada{
+
+from{
+
+    opacity:0;
+
+    transform:translateY(50px);
+
+}
+
+to{
+
+    opacity:1;
+
+    transform:translateY(0);
+
+}
+
+}
+
+
+
+.icon{
+
+    font-size:80px;
+
+    animation:tremer 1s infinite;
+
+}
+
+
+@keyframes tremer{
+
+0%,100%{
+    transform:rotate(0);
+}
+
+25%{
+    transform:rotate(-10deg);
+}
+
+75%{
+    transform:rotate(10deg);
+}
+
+}
+
+
+
+h1{
+
+    font-size:55px;
+
+    color:#ff4757;
+
+    text-shadow:
+
+    0 0 10px #ff4757,
+    0 0 30px #ff4757;
+
+    margin:20px 0;
+
+}
+
+
+
+p{
+
+    color:#ddd;
+
+    font-size:20px;
+
+    margin-bottom:30px;
+
+}
+
+
+
+a{
+
+    display:inline-block;
+
+    padding:15px 35px;
+
+    border-radius:30px;
+
+    background:#ff4757;
+
+    color:white;
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+    transition:.3s;
+
+}
+
+
+
+a:hover{
+
+    transform:scale(1.1);
+
+    box-shadow:
+    0 0 25px #ff4757;
+
+}
+
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<div class="container">
+
+<div class="icon">
+😢
+</div>
+
+
+<h1>Você Perdeu!</h1>
+
+
+<p>
+O número sorteado não era esse.
+<br>
+Tente novamente e boa sorte!
+</p>
+
+
+<a href="/">
+Voltar ao jogo
+</a>
+
+
+</div>
+
+
+</body>
+
+</html>
