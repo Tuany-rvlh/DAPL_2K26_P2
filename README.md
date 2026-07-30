@@ -1,20 +1,11 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:002B36,25:005F73,50:0A9396,75:94D2BD,100:E9D8A6&height=220&section=header&text=DAPL%202K26%20P2&fontSize=65&fontColor=ffffff&animation=fadeIn&fontAlignY=35"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:005F73,100:0A9396&height=140&section=header&text=DAPL%202K26%20P2&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=35"/>
 
 <br>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=24&duration=3000&pause=900&color=94D2BD&center=true&vCenter=true&width=850&lines=Initializing+DAPL+2K26+P2...;Loading+Backend+Services...;Rendering+Canvas+Projects...;Building+Web+Applications...;System+Online+✓"/>
-
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=26&duration=3000&pause=900&color=0A9396&center=true&vCenter=true&width=950&lines=%F0%9F%8C%90+Application+Development+%F0%9F%8C%90;Initializing+DAPL+2K26+P2...;Loading+Frontend+Modules...;Loading+Backend+Services...;Building+Web+Applications...;Executing+Canvas+Projects...;System+Online+%E2%9C%93"/>
 <br>
-
-### 🌐 Web Development
-
-### Technical Course in Systems Development
-
-### Francisco Moreira da Costa Electronics Technical School (ETE FMC)
-
-### Advisor: **Prof. Daniel Mosca**
 
 <br>
 
@@ -37,9 +28,20 @@
 
 # 👨‍💻 About the Repository
 
-The **DAPL_2K26_P2** repository contains projects developed during the **Systems Development Technical Course**, covering concepts related to **Frontend, Backend and Web Development**.
+The **DAPL_2K26_P2** repository brings together the projects, exercises and practical activities developed throughout the **Application Development** course of the **Technical Course in Systems Development** at the **Francisco Moreira da Costa Electronics Technical School (ETE FMC)**.
 
-This repository represents the practical evolution of application development, from interactive interfaces created with **HTML, CSS, JavaScript and Canvas**, to servers and APIs developed using **Node.js and Express**.
+The repository covers the main concepts of **Frontend**, **Backend** and **Web Development**, including responsive interfaces built with **HTML, CSS and JavaScript**, interactive applications using the **Canvas API**, and servers and RESTful APIs developed with **Node.js** and **Express**.
+
+**Advisor: Prof. Daniel Mosca**
+
+> [!IMPORTANT]
+> Some projects contain their own dedicated **README.md** with more detailed documentation, including architecture, features, implementation details and execution instructions.
+>
+> | Project | Documentation |
+> |:--------:|:-------------:|
+> | 💄 **Glow Beauty API** | `Backend/Projeto_MakeServer/README.md` |
+> | ⚡ **Electron Hunters** | `Frontend/Projeto_Canvas_V1/README.md` |
+> | 🌌 **Canvas Game** | `Frontend/Projeto_Canvas_V2/README.md` |
 
 
 ---
@@ -47,9 +49,11 @@ This repository represents the practical evolution of application development, f
 # 🗂️ Table of Contents
 
 - [👨‍💻 About the Repository](#-about-the-repository)
+
 - [📁 Project Structure](#-project-structure)
-- [📚 Additional Documentation](#-additional-documentation)
-  
+
+- [🏗️ Project Architecture](#️-project-architecture)
+
 - [⚙️ Backend](#️-backend)
   - [💄 Glow Beauty API](#-glow-beauty-api)
 
@@ -57,23 +61,12 @@ This repository represents the practical evolution of application development, f
   - [🎮 Featured Projects](#-featured-projects)
 
 - [▶️ How to Run](#️-how-to-run)
-- [🎯 Objectives](#-objectives)
-- [📈 Project Status](#-project-status)
+
+- [🎯 Learning Objectives](#-learning-objectives)
+
+- [📈 Repository Status](#-repository-status)
 
 
----
-
-# 📚 Additional Documentation
-
-Some projects in this repository have their own dedicated documentation with more detailed information about their structure, features and execution.
-
-The following projects include their own **README.md** files:
-
-- 💄 **Glow Beauty API** 
-- ⚡ **Electron Hunters**
-- 🌌 **Canvas Game**
-
-Each project README provides specific instructions, explanations of the implementation and additional details about the technologies used.
 
 ---
 
@@ -104,69 +97,71 @@ DAPL_2K26_P2/
 
 ---
 
-# ⚙️ Backend
+# 🏗️ Project Architecture
 
-The **Backend** section contains projects developed using **Node.js and Express**, exploring server creation, APIs and communication between client and server.
+The repository is structured into two main development areas: **Frontend** and **Backend**, representing the complete workflow of modern web applications, from user interfaces to server-side processing and data management.
 
-Main concepts developed:
+The **Frontend** is responsible for the visual interface and user interaction, using technologies such as **HTML5**, **CSS3**, **JavaScript** and the **Canvas API** for creating dynamic and interactive applications.
 
-- HTTP server creation;
-- Routes and endpoints;
-- GET and POST requests;
-- JSON file manipulation;
-- Authentication systems;
-- REST API development;
-- HTTP response handling.
+The **Backend** handles server logic, API development and data communication through **Node.js** and **Express**, providing structured services and RESTful APIs for web applications.
 
+```mermaid
+flowchart LR
+
+    U[👤 User]
+
+    subgraph Frontend
+        H[HTML5]
+        C[CSS3]
+        J[JavaScript]
+        CV[Canvas API]
+    end
+
+    subgraph Backend
+        N[Node.js]
+        E[Express]
+        A[REST API]
+        D[(JSON)]
+    end
+
+    U --> H
+    H --> C
+    C --> J
+    J --> CV
+
+    J -->|HTTP Requests| E
+    E --> A
+    A --> D
+```
 
 ---
 
-# 💄 Glow Beauty API
+# ⚙️ Backend
 
-The **Glow Beauty API** is a backend application developed using **Node.js and Express**, simulating a virtual makeup store.
+The backend projects focus on developing servers and RESTful APIs using **Node.js** and **Express**, emphasizing HTTP communication, data management and application architecture.
 
-The project uses **JSON-based communication** and request testing through **Postman**.
+| Project | Description | Technologies | Main Features |
+|:-------:|-------------|--------------|----------------|
+| 💄 **Glow Beauty API** | REST API that simulates an online makeup store. | Node.js, Express, JSON, Postman | Authentication, product catalog, filtering, inventory management and shopping cart |
 
-| Project | Description | Technologies | Features |
-|:---:|---|---|---|
-| 💄 Glow Beauty API | Makeup store management API. | Node.js, Express, JSON, Postman | Login, products, filters, inventory and shopping cart |
-
+> [!TIP]
+> The **Glow Beauty API** contains its own dedicated documentation with detailed information about the project architecture, endpoints and execution instructions.
 
 ---
 
 # 🌐 Frontend
 
-The **Frontend** section contains projects developed using:
-
-- HTML5;
-- CSS3;
-- JavaScript;
-- Canvas API.
-
-The projects explore interface creation, animations and interactive browser applications.
-
-Main concepts developed:
-
-- DOM manipulation;
-- Keyboard and mouse events;
-- Graphic rendering;
-- Particle systems;
-- Real-time animations;
-- Object collision;
-- 2D game development.
-
-
----
-
-# 🎮 Featured Projects
+The frontend projects explore the creation of interactive web applications using **HTML5**, **CSS3**, **JavaScript** and the **Canvas API**, applying concepts related to graphics, animation and user interaction.
 
 | Project | Description | Technologies | Applied Concepts |
-|:---:|---|---|---|
-| 🐍 **Snake Game** | Implementation of the classic snake game with score system, growth mechanics and collisions. | HTML Canvas, JavaScript | Movement, keyboard events, collision, game logic |
-| 🌧️ **Particle Rain** | Particle system with a mouse-controlled cloud and real-time generated rain. | HTML Canvas, JavaScript | Mouse events, particles, animations |
-| ⚡ **Electron Hunters** | Game based on Coulomb's Law with interaction between electric charges. | HTML Canvas, JavaScript | Computational physics, vectors, collisions |
-| 🌌 **Canvas Game** | Collection game with dynamic elements and player movement. | HTML Canvas, JavaScript | Animation, random generation, 2D collision |
+|:-------:|-------------|--------------|------------------|
+| 🐍 **Snake Game** | Classic Snake game featuring score tracking, player growth and collision mechanics. | HTML5, Canvas API, JavaScript | Game loop, keyboard input, collision detection |
+| 🌧️ **Particle Rain** | Interactive particle simulation with a mouse-controlled cloud. | HTML5, Canvas API, JavaScript | Particle systems, animations, mouse events |
+| ⚡ **Electron Hunters** | Educational game inspired by Coulomb's Law and electric charge interactions. | HTML5, Canvas API, JavaScript | Computational physics, vectors, collision detection |
+| 🌌 **Canvas Game** | Collection game with procedurally generated elements and player movement. | HTML5, Canvas API, JavaScript | Animation, random generation, object interaction |
 
+> [!NOTE]
+> Both **Electron Hunters** and **Canvas Game** include dedicated **README.md** files with additional documentation about their implementation and gameplay.
 
 ---
 
@@ -174,24 +169,26 @@ Main concepts developed:
 
 ## 📌 Requirements
 
-You need:
+Before running the projects, make sure you have the following installed:
 
-- Node.js installed;
+- Node.js;
 - Visual Studio Code;
-- Updated browser.
-
+- A modern web browser.
 
 ---
 
-# ⚙️ Running Backend Projects
+<details>
+<summary><b>⚙️ Running Backend Projects</b></summary>
 
-Access the desired project folder:
+<br>
+
+Navigate to the desired backend project folder:
 
 ```bash
 cd Backend/Projeto_MakeServer
 ```
 
-Install dependencies:
+Install the required dependencies:
 
 ```bash
 npm install
@@ -203,69 +200,85 @@ Start the server:
 node app.js
 ```
 
-The server will start running in the terminal.
+The application will start and the server will be available through the terminal.
 
+</details>
 
----
+<details>
+<summary><b>🌐 Running Frontend Projects</b></summary>
 
-# 🌐 Running Frontend Projects
+<br>
 
-Access the project folder:
+Navigate to the desired frontend project folder:
 
 ```bash
 cd Frontend/Desafios/Jogo_Snake
 ```
 
-Open the file:
+Open the project:
 
 ```text
 index.html
 ```
 
-You can also use:
+You can also launch it using:
 
 ```text
 Live Server
 ```
 
-to run the project directly in the browser.
+to run the application directly in your web browser.
+
+</details>
 
 
 ---
 
-# 🎯 Objectives
+# 🎯 Learning Objectives
 
-This repository aims to record the practical evolution of **Web Systems Development** during the **Systems Development Technical Course**.
+This repository documents the practical learning journey in **Application Development**, covering web applications, APIs, interactive projects and software development practices.
 
-Main objectives:
+```mermaid
+mindmap
+  root((DAPL_2K26))
 
-- 🌐 Develop Web applications;
-- ⚙️ Create servers and APIs;
-- 🔌 Understand client-server communication;
-- 🎮 Develop games using Canvas;
-- 🧠 Improve programming logic;
-- 🔬 Apply scientific concepts in software;
-- 📂 Organize projects using Git and GitHub.
+    Web Development
+      Modern Applications
+      Responsive Interfaces
+      User Interaction
 
+    Backend
+      Servers
+      REST APIs
+      Client-Server Communication
+
+    Frontend
+      JavaScript
+      Canvas API
+      Interactive Projects
+
+    Development Skills
+      Problem Solving
+      Git & GitHub
+      Good Practices
+```
 
 ---
 
-# 📈 Project Status
+# 📈 Repository Status
 
-🟡 **Under Development**
-
-New projects, exercises and applications will be added according to the progress of studies in **Systems Development**.
-
+> [!NOTE]
+> This repository is currently under active development and will continue to receive new projects, exercises and practical activities throughout the **Application Development** course.
+>
+> **Current Status:** 🟢 Active Development
 
 ---
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:002B36,25:005F73,50:0A9396,75:94D2BD,100:E9D8A6&height=170&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:005F73,100:0A9396&height=70&section=footer"/>
 
 <br>
-
-🌐 💻 ⚙️ 🚀
 
 ### Developed by
 
@@ -275,10 +288,8 @@ New projects, exercises and applications will be added according to the progress
 
 **Francisco Moreira da Costa Electronics Technical School (ETE FMC)**
 
+**Advisor: Prof. Daniel Mosca**
+
 **2026**
-
-<br>
-
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=18&duration=3000&pause=1000&color=94D2BD&center=true&vCenter=true&width=650&lines=DAPL+2K26+P2;Frontend+%7C+Backend;Node.js+%7C+Canvas+%7C+Web;Building+Modern+Applications+🌐"/>
 
 </div>
