@@ -30,8 +30,6 @@
 
 The **DAPL_2K26_P2** repository brings together the projects, exercises and practical activities developed throughout the **Application Development** course of the **Technical Course in Systems Development** at the **Francisco Moreira da Costa Electronics Technical School (ETE FMC)**.
 
-The repository covers the main concepts of **Frontend**, **Backend** and **Web Development**, including responsive interfaces built with **HTML, CSS and JavaScript**, interactive applications using the **Canvas API**, and servers and RESTful APIs developed with **Node.js** and **Express**.
-
 **Advisor: Prof. Daniel Mosca**
 
 > [!IMPORTANT]
@@ -99,11 +97,11 @@ DAPL_2K26_P2/
 
 # 🏗️ Project Architecture
 
-The repository is structured into two main development areas: **Frontend** and **Backend**, representing the complete workflow of modern web applications, from user interfaces to server-side processing and data management.
+The repository is divided into two main areas: **Frontend** and **Backend**, covering the development of modern web applications.
 
-The **Frontend** is responsible for the visual interface and user interaction, using technologies such as **HTML5**, **CSS3**, **JavaScript** and the **Canvas API** for creating dynamic and interactive applications.
+The **Frontend** focuses on interfaces and interactive experiences using **HTML5**, **CSS3**, **JavaScript** and the **Canvas API**.
 
-The **Backend** handles server logic, API development and data communication through **Node.js** and **Express**, providing structured services and RESTful APIs for web applications.
+The **Backend** manages servers, APIs and data communication using **Node.js** and **Express**.
 
 ```mermaid
 flowchart LR
@@ -138,30 +136,26 @@ flowchart LR
 
 # ⚙️ Backend
 
-The backend projects focus on developing servers and RESTful APIs using **Node.js** and **Express**, emphasizing HTTP communication, data management and application architecture.
-
 | Project | Description | Technologies | Main Features |
 |:-------:|-------------|--------------|----------------|
 | 💄 **Glow Beauty API** | REST API that simulates an online makeup store. | Node.js, Express, JSON, Postman | Authentication, product catalog, filtering, inventory management and shopping cart |
 
 > [!TIP]
-> The **Glow Beauty API** contains its own dedicated documentation with detailed information about the project architecture, endpoints and execution instructions.
+> The **Glow Beauty API** contains its own dedicated **README.md** with detailed documentation about its architecture, endpoints and execution instructions.
 
 ---
 
 # 🌐 Frontend
 
-The frontend projects explore the creation of interactive web applications using **HTML5**, **CSS3**, **JavaScript** and the **Canvas API**, applying concepts related to graphics, animation and user interaction.
-
 | Project | Description | Technologies | Applied Concepts |
 |:-------:|-------------|--------------|------------------|
-| 🐍 **Snake Game** | Classic Snake game featuring score tracking, player growth and collision mechanics. | HTML5, Canvas API, JavaScript | Game loop, keyboard input, collision detection |
+| 🐍 **Snake Game** | Classic Snake game with score tracking, player growth and collision mechanics. | HTML5, Canvas API, JavaScript | Game loop, keyboard input, collision detection |
 | 🌧️ **Particle Rain** | Interactive particle simulation with a mouse-controlled cloud. | HTML5, Canvas API, JavaScript | Particle systems, animations, mouse events |
-| ⚡ **Electron Hunters** | Educational game inspired by Coulomb's Law and electric charge interactions. | HTML5, Canvas API, JavaScript | Computational physics, vectors, collision detection |
-| 🌌 **Canvas Game** | Collection game with procedurally generated elements and player movement. | HTML5, Canvas API, JavaScript | Animation, random generation, object interaction |
+| ⚡ **Electron Hunters** | Educational game based on Coulomb's Law and electric charge interactions. | HTML5, Canvas API, JavaScript | Computational physics, vectors, collision detection |
+| 🌌 **Canvas Game** | Collection game with procedural generation and player movement. | HTML5, Canvas API, JavaScript | Animation, random generation, object interaction |
 
 > [!NOTE]
-> Both **Electron Hunters** and **Canvas Game** include dedicated **README.md** files with additional documentation about their implementation and gameplay.
+> **Electron Hunters** and **Canvas Game** include their own dedicated **README.md** files with additional documentation about implementation and gameplay.
 
 ---
 
@@ -174,8 +168,6 @@ Before running the projects, make sure you have the following installed:
 - Node.js;
 - Visual Studio Code;
 - A modern web browser.
-
----
 
 <details>
 <summary><b>⚙️ Running Backend Projects</b></summary>
@@ -236,31 +228,31 @@ to run the application directly in your web browser.
 
 # 🎯 Learning Objectives
 
-This repository documents the practical learning journey in **Application Development**, covering web applications, APIs, interactive projects and software development practices.
+This repository documents the practical learning journey in **Application Development**, focusing on web development, programming skills and software practices.
 
 ```mermaid
 mindmap
   root((DAPL_2K26))
 
     Web Development
-      Modern Applications
-      Responsive Interfaces
-      User Interaction
+      Interactive Applications
+      User Interfaces
+      Canvas Projects
 
-    Backend
-      Servers
-      REST APIs
-      Client-Server Communication
-
-    Frontend
-      JavaScript
-      Canvas API
-      Interactive Projects
-
-    Development Skills
+    Programming Skills
       Problem Solving
+      Logic Development
+      Code Organization
+
+    Software Practices
       Git & GitHub
-      Good Practices
+      API Development
+      Project Documentation
+
+    Learning Process
+      Hands-on Activities
+      Practical Projects
+      Continuous Improvement
 ```
 
 ---
@@ -270,7 +262,7 @@ mindmap
 > [!NOTE]
 > This repository is currently under active development and will continue to receive new projects, exercises and practical activities throughout the **Application Development** course.
 >
-> **Current Status:** 🟢 Active Development
+> **Current Status:** Active Development
 
 ---
 
